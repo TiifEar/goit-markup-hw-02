@@ -10,6 +10,7 @@ body{
     background-color: var(--back-color);
 }
 /* header */
+    /* nav */
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -23,6 +24,23 @@ body{
     color: var(--logo-decoration);
 }
 
+.list{
+    list-style: none;
+}
+.nav_item_style{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-decoration);
+}
+.nav_item_style:hover, .nav_item_style:focus{
+    color: #404bbf;
+}
+.header_addres_style{
+    font-style: normal;
+    
+}
 /* footer */
 .footer_style{
     background-color:#2e2f42;
