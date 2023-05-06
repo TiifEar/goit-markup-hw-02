@@ -2,7 +2,7 @@
     --white: #FFFFFF;
     --light-blue: #4d5ae5;
     --dark-purple: #2e2f42;
-    --blue-violet:#404BBF;
+    --blue-violet: #404BBF;
     --blue-gray: #434455;
     --pale-purple: #F4F4FD;
 }
@@ -32,17 +32,19 @@ body {
     text-transform: uppercase;
     color: var(--light-blue);
 }
-    /* logo-decoration */
-.header_logo_decoration {
+
+/* logo-decoration */
+.header-span {
     color: var(--dark-purple);
 }
-.footer_logo_decoration {
+
+.footer-span {
     color: var(--pale-purple);
 }
 
 /* header */
-    /* nav */
-.nav_item_style {
+/* nav */
+.nav-style {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -50,17 +52,17 @@ body {
     color: var(--dark-purple);
 }
 
-.nav_item_style:hover,
-.nav_item_style:focus {
+.nav-style:hover,
+.nav-style:focus {
     color: var(--blue-violet);
 }
 
-    /* addres */
-.header_addres_style {
+/* addres */
+.addres-style {
     font-style: normal;
 }
 
-.addres_item {
+.addres-item {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -68,13 +70,13 @@ body {
     color: var(--blue-gray);
 }
 
-.addres_item:hover,
-.addres_item:focus {
+.addres-item:hover,
+.addres-item:focus {
     color: var(--blue-violet);
 }
 
 /* content */
-.section_title {
+.section-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -84,7 +86,7 @@ body {
     color: var(--dark-purple);
 }
 
-.content_titles {
+.content-titles {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -100,7 +102,7 @@ body {
 }
 
 /* index */
-    /* hero */
+/* hero */
 .hero {
     background-color: var(--dark-purple);
 }
@@ -114,7 +116,7 @@ body {
     color: var(--white);
 }
 
-.order_button {
+.order-button {
     background-color: var(--light-blue);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -125,24 +127,24 @@ body {
     cursor: pointer;
 }
 
-.order_button:hover,
-.order_button:focus {
+.order-button:hover,
+.order-button:focus {
     background-color: var(--blue-violet);
 }
 
-    /* team section*/
+/* team section*/
 .team {
     background-color: var(--pale-purple);
 }
 
-.team_content {
+.team-content {
     background-color: var(--white);
 }
 
 
 /* portfolio */
-    /* filters */
-.filter_contol {
+/* filters */
+.filter-contol {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -153,18 +155,18 @@ body {
     cursor: pointer;
 }
 
-.filter_contol:hover,
-.filter_contol:focus {
+.filter-contol:hover,
+.filter-contol:focus {
     color: var(--white);
     background-color: var(--blue-violet);
 }
 
 /* footer */
-.footer_style {
+.footer-style {
     background-color: var(--dark-purple);
 }
 
-.footer_style p{
+.footer-style p {
     color: var(--pale-purple);
     font-weight: 400;
 }
