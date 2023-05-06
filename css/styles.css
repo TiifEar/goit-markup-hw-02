@@ -65,7 +65,11 @@ body{
 
 /* index */
 .section_title {
-
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--logo-decoration);
 }
     /* hero */
 .index_hero{
