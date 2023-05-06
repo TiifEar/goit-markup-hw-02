@@ -137,6 +137,10 @@ body{
     color: #FFFFFF;
     background-color: #404BBF;
 }
+    /* content */
+.color_to_content{
+    color:var(--addres-item-color);
+}
 /* footer */
 .footer_style{
     background-color:#2e2f42;
