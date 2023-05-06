@@ -64,6 +64,10 @@ body{
 
 
 /* index */
+.section_title {
+
+}
+    /* hero */
 .index_hero{
     background-color: var(--logo-decoration);
 }
@@ -87,6 +91,19 @@ body{
 .order_button:hover, .order_button:focus{
     background-color: #404BBF;
 }
+    /* about */
+.about_title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-decoration);
+}
+.about_content{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 /* portfolio */
 
 
