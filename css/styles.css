@@ -1,12 +1,26 @@
 
 :root {
     --back-color: #FFFFFF;
-    --logo-color:#4d5ae5
+    --logo-color:#4d5ae5;
+    --logo-decoration:#2e2f42;
 }
 body{
     color: #434455;
     font-family: 'Roboto', sans-serif;
     background-color: var(--back-color);
+}
+/* header */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+.header_logo_decoration{
+    color: var(--logo-decoration);
 }
 
 /* footer */
@@ -14,15 +28,6 @@ body{
     background-color:#2e2f42;
 }
 
-.footer_logo{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:var(--logo-color);
-}
 .link{
     text-decoration: none;
 }
