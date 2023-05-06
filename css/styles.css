@@ -4,6 +4,7 @@
     --logo-color:#4d5ae5;
     --logo-decoration:#2e2f42;
     --addres-item-color: #434455;
+    --filter-back-color: #F4F4FD;
 }
 body{
     color: #434455;
@@ -121,7 +122,21 @@ body{
 
 /* portfolio */
 
-
+    /* filters */
+.filter_contol{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background-color: var(--filter-back-color);
+    cursor: pointer;
+}
+.filter_contol:hover, .filter_contol:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 /* footer */
 .footer_style{
     background-color:#2e2f42;
