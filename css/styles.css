@@ -96,17 +96,28 @@ body{
     background-color: #404BBF;
 }
     /* about */
-.about_title{
+.titles{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--logo-decoration);
 }
-.about_content{
+.contents{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+    /* team */
+.team{
+    background-color: #F4F4FD;
+}
+.team_title{
+    letter-spacing: 0.02em
+}
+.team_content{
+    background-color: #FFFFFF;
+}
+
 
 /* portfolio */
 
