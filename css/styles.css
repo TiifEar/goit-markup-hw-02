@@ -3,6 +3,7 @@
     --back-color: #FFFFFF;
     --logo-color:#4d5ae5;
     --logo-decoration:#2e2f42;
+    --addres-item-color: #434455;
 }
 body{
     color: #434455;
@@ -39,7 +40,15 @@ body{
 }
 .header_addres_style{
     font-style: normal;
-    
+}
+.addres_item{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--addres-item-color);
+}
+.addres_item:hover, .addres_item:focus{
+    color: #404bbf;
 }
 /* footer */
 .footer_style{
